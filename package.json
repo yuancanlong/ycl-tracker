@@ -1,0 +1,22 @@
+{
+  "name": "maidian-sdk",
+  "version": "1.0.2",
+  "description": "",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "browser":"dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c"
+  },
+  "keywords": ["前端","埋点","tracker"],
+  "author": "ycl",
+  "files":["dist"],
+  "license": "ISC",
+  "devDependencies": {
+    "rollup": "^2.76.0",
+    "rollup-plugin-dts": "^5.2.0",
+    "rollup-plugin-typescript2": "^0.34.1",
+    "typescript": "^4.9.5"
+  }
+}
